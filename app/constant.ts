@@ -1,5 +1,6 @@
 export const OWNER = "Yidadaa";
 export const REPO = "ChatGPT-Next-Web";
+export const GPT_URL = `https://www.openaiboy.com/`;
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
@@ -23,7 +24,7 @@ export enum Path {
 }
 
 export enum ApiPath {
-  Cors = "",
+  Cors = "/api/cors",
   OpenAI = "/api/openai",
 }
 
