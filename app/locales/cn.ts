@@ -8,12 +8,12 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "请前往[登录](/#/auth)页输入正确的API KEY，或进入[设置](/#/settings)页面自定义接口菜单内填入你自己的 API Key 方可继续使用哦。 😄还没有ChatGPT账号？[点击进入ChatGPT账号商店](https://www.openaiboy.com/)获取一个带有有效API KEY的ChatGPT账号吧！",
   },
   Auth: {
     Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    Tips: "管理员开启了密码验证，请在下方填入访问码，或者在下面输入有效的API KEY密钥即可使用",
+    SubTips: "或者输入你的 OpenAI API KEY 或 Google API 密钥 , 还没有ChatGPT账号？[打开 www.openaiboy.com 获取一个吧]！",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗？ 本站推荐最佳ChatGPT账号商店[点击进入](https://www.openaiboy.com/)  ChatGPT独享永久个人号[点击进入](https://www.openaiboy.com/)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
