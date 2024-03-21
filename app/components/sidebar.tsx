@@ -24,6 +24,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  GPT_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -217,8 +218,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
+            <a href={GPT_URL} target="_blank" rel="noopener noreferrer">
+             点击获取ChatGPT账号
             </a>
           </div>
         </div>
